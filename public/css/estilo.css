@@ -1,0 +1,38 @@
+.formulario{
+    background-color: #fff;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.formulario input{
+    display: block;
+}
+
+.formulario input[type = "text"]{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 1px solid #226fc1;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.formulario input[type = "submit"]{
+    width: 200px;
+    margin: 0px auto;
+    background: #185497;
+    border: 1px solid #0e7bf6;
+    color: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius:3px ;
+}
+
+.formulario input[type = "submit"]:hover{
+    background: none;
+    color: #185497;
+}
